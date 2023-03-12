@@ -1,10 +1,8 @@
 # Delilah
 
-Delilah is a cutting-edge Computational Storage Processor (CSP) developed by the IT University of Copenhagen that provides efficient data storage and retrieval capabilities. Leveraging the power of eBPF (extended Berkeley Packet Filter), Delilah brings processing power closer to where data is stored, reducing latency and improving overall system performance. The processor runs on the Daisy OpenSSD and exposes an asynchronous computational storage protocol to the host.
+Delilah is an advanced Computational Storage Processor (CSP) that is purpose-built to operate on the Daisy OpenSSD. It works by exposing an asynchronous computational storage protocol to the host, which is capable of utilizing eBPF (extended Berkeley Packet Filter) to transform data and manage I/O operations to the underlying storage media.
 
-With Delilah, software developers can write applications that take advantage of the benefits of computational storage by providing a standard interface for accessing and processing data. This allows for the creation of data-intensive applications that can process large amounts of data more efficiently than traditional systems.
-
-Delilah also provides a secure way to access and process sensitive data. This makes it possible to store sensitive data on computational storage devices and process it in a secure and controlled manner. With its innovative technology, Delilah has the potential to transform the way we manage and process data, opening up new possibilities for data processing and management.
+The emergence of computational storage platforms, such as Delilah, has transformed the data storage landscape, enabling new computing models and supporting data-intensive applications that were previously unachievable with traditional storage systems. Delilah stands out as the first publicly described computational storage platform that employs eBPF. Furthermore, due to its use of eBPF, Delilah is completely vendor-neutral and not reliant on any particular hardware or software vendor.
 
 ## License & Funding
 

@@ -1,6 +1,6 @@
 # Delilah
 
-Delilah is a cutting-edge computational storage platform developed by the IT University of Copenhagen that provides efficient data storage and retrieval capabilities. Leveraging the power of eBPF (extended Berkeley Packet Filter), Delilah brings processing power closer to where data is stored, reducing latency and improving overall system performance. The platform runs on the Daisy OpenSSD and exposes an asynchronous computational storage protocol to the host.
+Delilah is a cutting-edge Computational Storage Processor (CSP) developed by the IT University of Copenhagen that provides efficient data storage and retrieval capabilities. Leveraging the power of eBPF (extended Berkeley Packet Filter), Delilah brings processing power closer to where data is stored, reducing latency and improving overall system performance. The processor runs on the Daisy OpenSSD and exposes an asynchronous computational storage protocol to the host.
 
 With Delilah, software developers can write applications that take advantage of the benefits of computational storage by providing a standard interface for accessing and processing data. This allows for the creation of data-intensive applications that can process large amounts of data more efficiently than traditional systems.
 

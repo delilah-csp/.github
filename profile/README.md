@@ -1,8 +1,6 @@
 # Delilah
 
-Delilah is an advanced Computational Storage Processor (CSP) that is purpose-built to operate on the Daisy OpenSSD. It works by exposing an asynchronous computational storage protocol to the host, which is capable of utilizing eBPF (extended Berkeley Packet Filter) to transform data and manage I/O operations to the underlying storage media.
-
-The emergence of computational storage platforms, such as Delilah, has transformed the data storage landscape, enabling new computing models and supporting data-intensive applications that were previously unachievable with traditional storage systems. Delilah stands out as the first publicly described computational storage platform that employs eBPF. Furthermore, due to its use of eBPF, Delilah is completely vendor-neutral and not reliant on any particular hardware or software vendor.
+Delilah is a system supporting eBPF offload on a Computational Storage Processor (CSP).
 
 ## License & Funding
 
